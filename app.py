@@ -7,8 +7,8 @@ st.set_page_config(layout="wide")
 
 # Streamlit UI for AWS Credentials and S3 Bucket Name
 st.title("📂 Upload File to AWS S3")
-aws_access_key = st.text_input("Enter AWS Access Key")
-aws_secret_key = st.text_input("Enter AWS Secret Key", type="password")
+aws_access_key = st.text_input("Enter AWS Access Key", value="AKIA6K5V7XWWJZYMB5NN")
+aws_secret_key = st.text_input("Enter AWS Secret Key", type="password", value="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")
 s3_bucket_name = "upload-vault-2810"
 
 # Initialize S3 client
